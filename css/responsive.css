@@ -1,0 +1,399 @@
+@media (max-width: 1000px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(50px, 1fr));
+        grid-template-rows: auto auto auto auto 350px auto auto auto auto auto;
+        grid-template-areas:
+            "bluebg bluebg bluebg bluebg bluebg bluebg"
+            "graybg    graybg   graybg      graybg   graybg      graybg"
+            "yellowbg yellowbg yellowbg yellow-lamp yellow-lamp yellow-lamp"
+            "tabano tabano tabano tabano        potter potter"
+            "black-gray black-gray light-gray light-gray light-gray light-gray"
+            "two-black-chairs two-black-chairs two-black-chairs alessi alessi alessi"
+            "studio studio lorem lorem lorem lorem"
+            "three-designers three-designers three-designers three-designers three-designers three-designers"
+            "staff staff staff staff staff staff"
+            "news news mauris mauris mauris mauris"
+            "map map map contacts contacts contacts";
+    }
+    .bluebg {
+        padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        z-index: 5000;
+    }
+    .graybg {
+    padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+    padding-top: 200px;
+}
+    .yellowbg {
+        padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+    }
+    .yellow-lamp {
+        padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+    }
+    .tabano {
+         padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+    }
+    .potter {
+        padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+    }
+    .black-gray {
+        padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+    }
+    .light-gray {
+        padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+    }
+    .two-black-chairs {
+        padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+    }
+    .alessi {
+        padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+    }
+    .studio{
+        padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+    }
+    .for-two-black-chairs {
+        padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+    }
+    .three-designers {
+        padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+    }
+    .staff {
+        padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+    }
+    .news {
+        padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+    }
+    .contacts {
+        padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+    }
+    .lorem__lorem-ipsum {
+        padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+    }
+    .loren__room__aenean p{
+        padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+        padding-bottom: 0;
+    }
+    .staff {
+        padding: calc(15px + 25 * ((100vw - 320px) / (1000 - 320)));
+
+    }
+    .brawn-chairs img {
+        padding-top: 0;
+    }
+    
+    .burger-and-menu:hover .menu-in-burger {
+        flex-direction: column;
+        height: 730px;
+        width: 125px;
+    }
+    .for-burger {
+        flex-direction: row;
+    }
+    .burger-and-menu {
+        align-self: flex-start;
+    }
+    .tel-and-hover {
+        align-self: flex-end;
+    }
+    .california {
+        align-self: flex-start;
+    }
+    .tel,
+    .info {
+        align-self: flex-end;
+        padding-left: 0px;
+    }
+    .for-green-chair {
+        height: 300px;
+    }
+    .tabano-and-designer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .two-black-chairs {
+        padding: calc(20px + 20 * ((100vw - 320px) / (1000 - 320)));
+    }
+    .designer-patricia {
+        flex: 0 1 20%;
+    }
+    .potter {
+        flex-direction: column;
+    }
+    .alessi1 {
+        padding-right: 70px;
+    }
+    .timeline {
+        display: none;
+    }
+    .lorem {
+        flex-direction: column-reverse;
+        padding:0;
+    }
+    .lorem__room {
+        max-width: 100%;
+    }
+    .lorem__room__awards {
+        display: none;
+    }
+    .staff {
+        background-color: #eaeaea;
+    }
+.california {
+    display: none;
+}
+
+.fondue p {
+    padding-right: 20px;
+}
+.mauris-and-prion {
+        padding: calc(20px + 20 * ((100vw - 320px) / (1000 - 320)));
+}
+
+.up.shadow {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0);
+}
+.bluebg.shadow {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+}
+@media (max-width: 800px) {
+    .sesann {
+        padding-right: 20px;
+    }
+    .alessi1 {
+        padding-right: 20px;
+    }
+
+}
+@media (max-width: 768px) {
+    .potter2 {
+        flex-wrap: wrap;
+    }
+    .yellow-lamp-in-popup {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(30px, 1fr));
+        grid-template-rows:
+            auto auto auto auto auto auto
+            /*700px*/ auto auto auto auto auto auto
+            auto auto auto auto auto;
+        grid-template-areas:
+            "bluebg bluebg bluebg bluebg bluebg bluebg"
+            "graybg    graybg   graybg      graybg   graybg      graybg"
+            "yellowbg yellowbg yellowbg yellowbg yellowbg yellowbg"
+            "yellow-lamp yellow-lamp yellow-lamp yellow-lamp yellow-lamp yellow-lamp"
+            "potter potter potter potter potter potter "
+            "tabano tabano tabano tabano  tabano tabano"
+            /* "black-gray black-gray black-gray black-gray black-gray black-gray" */
+            "light-gray light-gray light-gray light-gray light-gray light-gray"
+            "two-black-chairs two-black-chairs two-black-chairs two-black-chairs two-black-chairs two-black-chairs"
+             "studio studio studio studio studio studio"
+            "alessi alessi alessi alessi alessi alessi"
+           
+            "lorem lorem lorem lorem lorem lorem"
+            "three-designers three-designers three-designers three-designers three-designers three-designers"
+            "staff staff staff staff staff staff"
+            "news news news news news news"
+            "mauris mauris mauris mauris mauris mauris"
+            "map map map map map map"
+            "contacts contacts contacts contacts contacts contacts";
+    }
+    
+    h3 {
+        padding-left: 50%;
+    }
+    .light-gray {
+        flex-direction: column;
+    }
+.black-gray {
+    display: none;
+}
+    .desiner-patric-arrows-and-heart {
+        flex-direction: row;
+        align-items: center;
+    }
+    .alessi1 {
+        flex-direction: row;
+        max-width: 900px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: space-around;
+        flex: 0 1 80%;
+    }
+    .three-designers {
+        flex-direction: column;
+    }
+    .designer1, .designer2, .designer3 {
+        padding-right: 20px;
+    }
+    .three-designers__designer1 {
+        flex: 0 1 100%;
+        flex-direction: row;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: flex-start;
+    }
+    .three-designers__designer1-popup {
+        flex-direction: column;
+    }
+    .potter {
+        flex-direction: row;
+    }
+    .studio, .news {
+        padding-top: 180px;
+    }
+    .lorem__room {
+        padding-left: 0;
+    }
+    .lorem__lorem-ipsum p {
+        padding-left: 0;
+    }
+    .sesann {
+        padding-right: 0px;
+    }
+    .mauris-and-prion__marius__p {
+        font-size: 18px;
+    }
+    .mauris-and-prion {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mauris-and-prion__marius,
+    .mauris-and-prion__prion {
+        display: flex;
+        padding: 0;
+    }
+    .mauris-and-prion__marius {
+        padding-bottom: 40px;
+    }
+    .name-and-pic {
+        height: auto;
+        flex: 0 1 50%;
+        justify-content: flex-start;
+    }
+    .for-light-brown-chair {
+        height: 300px;
+    }
+    .for-text {
+        flex: 0 1 50%;
+        padding-left: 15px;
+    }
+    .mauris-and-prion__marius__p2 {
+    padding: 0;
+}
+.alessi2 {
+    top:0;
+}
+}
+@media (max-width: 600px) {
+    .tel-and-hover {
+        flex: 0 1 70%;
+    }
+    .california {
+        padding: 0px;
+    }
+    .california3 {
+        padding-top: 10px;
+    }
+    .for-logo {
+        flex: 0 1 10%;
+        padding: 0;
+    }
+    .brawn-chairs {
+        flex: 0 1 90%;
+    }
+   
+    .alessi1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .for600 {
+        padding: 10px 0px 10px 0px;
+    }
+    .alessi1 {
+        padding: 0;
+    }
+}
+@media (max-width: 500px) {
+    .nets1 {
+        display: none;
+    }
+    
+    h3 {
+        padding-left: 15%;
+    }
+    .alessi1 {
+        flex: 0 1 70%;
+    }
+    .two-black-chairs {
+    padding: 10px 10px 0px 10px;
+    }
+    
+    .graybg {
+        padding: 150px 15px 15px 15px;
+    }
+    
+    
+    .lorem__lorem-ipsum {
+        padding: 15px;
+    }
+    .loren__room__aenean p {
+    padding: 15px 15px 0 15px;
+    }
+    .mauris-and-prion {
+    padding: 15px;
+    }
+    .mauris-and-prion__marius, .mauris-and-prion__prion  {
+        flex-direction: column;
+    }
+    .for-text {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+    .mauris-and-prion__marius__p {
+        padding-bottom: 10px;
+    }
+    .mauris-and-prion__marius {
+    padding-bottom: 20px;
+}
+@media (max-width: 400px){
+    .brawn-chairs img {
+    padding-left: 2rem;
+}
+.for-logo2 {
+    display: none;
+}
+.contacts {
+    align-items: center;
+}
+.california2 {
+    text-align: center;
+}
+.contacts-bottom {
+    align-items: center;
+}
+.tel2, .info2 {
+    align-self: center;
+}
+.for-burger {
+    flex-direction: column;
+}
+.california3 {
+    display: none;
+}
+.three-designers__designer1 {
+    flex-direction: column;
+    align-items: center;
+}
+.three-designers__designer1-popup {
+        align-items: flex-start;
+    }
+}
